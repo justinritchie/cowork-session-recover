@@ -1,0 +1,23 @@
+# Build artifacts
+*.skill
+/staging/
+/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Sessions / backups (just in case anyone runs the scripts inside the repo)
+*.jsonl.bak-*
+*.jsonl.new-*
