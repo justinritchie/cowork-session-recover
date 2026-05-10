@@ -37,8 +37,8 @@ Stripping those two things alone typically takes a session from 25 MB to 7 MB wi
 ```
 
 Two UUIDs matter:
-- **session-uuid** (`local_b1bb8217-...`) — the directory name on disk; what `mcp__session_info__list_sessions` returns
-- **chat-uuid** (`3cf15602-...`) — the JSONL filename inside the session
+- **session-uuid** (e.g., `local_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`) — the directory name on disk; what `mcp__session_info__list_sessions` returns
+- **chat-uuid** (e.g., `yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy`) — the JSONL filename inside the session
 
 ## Decision tree
 
